@@ -8,7 +8,7 @@ class test_login(StartEnd):
     def test_01loginNormal(self):
         po = loginView(self.driver)
         po.type_loginNormal()
-        print("先提交到dev，后与master合并.")
+        print("先提交到dev，后与master合并..")
 
     # def test_02
 
